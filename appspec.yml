@@ -3,3 +3,5 @@ os: linux
 files:
   - source: ./README.md
     destination: /tmp/
+  - source ./index.php
+    destination: /usr/share/nginx/html/
