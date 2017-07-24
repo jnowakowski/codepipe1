@@ -4,7 +4,7 @@ files:
   - source: ./README.md
     destination: /tmp/
   - source: ./index.php
-    destination: /usr/share/nginx/html/
+    destination: /var/www/html
 hooks:
   BeforeInstall:
     - location: ./scripts/before-installh.sh
